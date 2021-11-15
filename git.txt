@@ -1,6 +1,15 @@
+C:\Users\admin>cd ..
+
+C:\Users>cd ..
+
+C:\>cd webprogram
+
+
 1.  git(설치파일)
 2.  git init (초기화)
 3.  git add *(버전 관리할 대상 등록)
+    git config --global user.email 'das01042@naver.com'
+    git config --global user.name '백승국'
 4.  git commit ( 로컬 저장소에 직업 파일을 커밋)
 5.  원격 저장소를 생성.
-6.  git push (로컬저장소 == 원격 저장소)동기화
+6.  git push (로컬저장소 == 원격 저장소)동기화 git push -u origin master
