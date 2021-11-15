@@ -5,6 +5,8 @@ C:\Users>cd ..
 C:\>cd webprogram
 
 
+
+
 1.  git(설치파일)
 2.  git init (초기화)
 3.  git add *(버전 관리할 대상 등록)
@@ -19,3 +21,6 @@ C:\>cd webprogram
   unstage (add)  ->  stage(commit) - > sync (push)
 
   pull(원격 - > 로컬)
+
+
+  git remote add origin https://github.com/das01042/web.git
