@@ -6,12 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>span속성</title>
+    <style>
+        table:nth-child(1){
+            display: inline-block;
+            width: 135px;
+            height: 240px;
+        }
+        
+        table:nth-child(2){
+            display: inline-block;
+            width: 208px;
+            height: 240px;
+        }
+    </style>
     
 </head>
 
 <body>
     <!-- column, rows 확장 -->
+    <!-- caption 테이블 제목 -->
+    
     <table border='1'>
+        <caption>성적리스트</caption>
         <thead>
             <tr>
                 <th rowspan="2">이름</th>
@@ -58,10 +74,11 @@
 
 
     <table border='1'>
+        <caption>회원리스트</caption>
         <thead>
             <tr>
                 <th rowspan="2">이름</th>
-                <th colspan="2">연락처</th>
+                <th colspan="2">주소</th>
                 
             </tr>
             <tr>
