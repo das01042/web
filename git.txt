@@ -17,4 +17,5 @@ C:\>cd webprogram
 
   파일상태.
   unstage (add)  ->  stage(commit) - > sync (push)
-  
+
+  pull(원격 - > 로컬)
